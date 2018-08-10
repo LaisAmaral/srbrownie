@@ -3,7 +3,7 @@ body{
     background: #fff;
 }
 
-.wrapper{
+.wrapper{		/* Div */
     max-width: 1100px;
     margin: 0 auto;
     position: relative;
@@ -12,7 +12,7 @@ body{
 
 /*  Header */
 
-header{
+header{			 /* Largura e altura do header */
     width: 100%;
     height: 100px;
     background: rgba(28, 54, 85, .2);
@@ -34,7 +34,7 @@ a {
     text-decoration: none;
 }
 
-header nav{
+header nav{		/* Organização menu e opacidade */
     float: right;
     opacity: 1;
 }
@@ -47,17 +47,25 @@ header nav ul{
     float: left;
 }
 
-header nav ul li{
+header nav ul li{	/* Organização na horizontal */
     float: left;
     margin-left: 50px;
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
 }
 
+ /* Hover */
+header nav ul li a:hover {
+	bottom: 0;
+	left: 0;
+    opacity: 0;
+    transform: scale(0.1, 1);
+    transition: 1s ease;
+}
+
 header nav ul li a,{
     text-decoration: none;
     color: #fff;
-
     font-size: 16px;
     letter-spacing: 1px;
 
@@ -65,7 +73,7 @@ header nav ul li a,{
 
 /*  Estrutura */
 
-.estrutura{
+.estrutura{		/* Background da estrutura */
     width: 100%;
     height: 900px;
     position: relative;
@@ -78,7 +86,7 @@ header nav ul li a,{
 
 /* Produto */
 
-.estrutura .infor{
+.estrutura .infor{		/* Organização da logo principal */
     width: 100%;
     margin-left: -5%;
     position: absolute;
