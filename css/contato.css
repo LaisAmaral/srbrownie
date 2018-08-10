@@ -114,6 +114,7 @@ header nav ul li a,{
     margin: 0;
     position: relative;
     display: block;
+    flex-direction: row;
 }
 
 .estrutura .infor h3{
@@ -140,6 +141,7 @@ header nav ul li a,{
     margin-top: -350px;
     margin-left: 50%;
     float:right;
+    flex-direction: row;
  }  
 
  .formContato input {  
