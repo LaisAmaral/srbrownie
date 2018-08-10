@@ -1,0 +1,25 @@
+{
+  "title": "srbrownie",
+  "description": "Site para uma doceria especializada na produção de brownies.",
+  "demo": " https://laisamaral.github.io/srbrownie/ ",
+  "repository": " https://github.com/LaisAmaral/srbrownie ",
+  "course": "cstsi",
+  "session": "2018.1",
+  "subject": "lm",
+  "campus": "João Pessoa",
+  "topics": [
+    "html",
+    "css"
+  ],
+  "owners": [
+    {
+      "id": "20172370026",
+      "name": "Laís Jéssica Amaral de Lima",
+      "github": " https://github.com/LaisAmaral "
+      
+      "id": "20171370034",
+      "name": "Leticia Miranda",
+       "github": " https://github.com/leticiamiranda"
+    }
+  ]
+}
